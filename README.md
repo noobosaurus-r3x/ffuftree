@@ -86,3 +86,6 @@ will output the following:
 
 ## Ffuf
 https://github.com/ffuf/ffuf
+
+## Final words
+I am not a proper developper, so you might encounter some problems with some outputs. That is mainly an exercice, but it works pretty well here.
