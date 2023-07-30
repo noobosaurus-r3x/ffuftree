@@ -1,4 +1,4 @@
-# Directory Tree Builder for ffuf Output
+# ffuftree : a Directory Tree Builder for ffuf Output
 
 This is a Python script that builds a directory tree from the JSON output of the ffuf tool. It parses the JSON data, extracts URLs, and their corresponding HTTP status codes, and then prints the directory tree along with the status codes using colored output.
 
@@ -79,9 +79,9 @@ will output the following:
 ```bash
 └── example.com
     ├── files
-    │   ├── document.txt (Status: 200)
-    │   ├── image.jpg (Status: 404)
-    │   └── music.mp3 (Status: 200)
+       ├── document.txt (Status: 200)
+       ├── image.jpg (Status: 404)
+       └── music.mp3 (Status: 200)
 ```
 
 ## Ffuf
